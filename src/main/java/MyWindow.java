@@ -14,13 +14,7 @@ public class MyWindow extends JFrame {
         this.setLocationRelativeTo(null);
         GridLayout gridLayout = new GridLayout(ROWS,COLS);
         this.setLayout(gridLayout);
-        LinkedList<MyButton> list = new LinkedList<MyButton>();
-        for (int i = 0; i < 9; i++) {
-            list.add(new MyButton());
-        }
-        for (MyButton v:list) {
-            this.add(v);
-        }
+        this.add(new SceneGame());
 
         this.setVisible(true);
     }
