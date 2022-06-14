@@ -23,7 +23,24 @@ public class SceneGame extends JPanel implements MyGame {
         }
         square = new int[ROWS][COLS];
         new Thread(()->{
+            while (true){
+                if(Logics.checkGame(square)!=0){
+                    break;
+                }
 
+            }
+            if (Logics.checkGame(square)==X_PLAYER){
+                JOptionPane.showMessageDialog(new JFrame(),
+                        "X win ",
+                        "win game",
+                        JOptionPane.PLAIN_MESSAGE);
+            }
+            else {
+                JOptionPane.showMessageDialog(new JFrame(),
+                        "O win ",
+                        "win game",
+                        JOptionPane.PLAIN_MESSAGE);
+            }
         });
 
 
@@ -57,7 +74,6 @@ public class SceneGame extends JPanel implements MyGame {
                 this.square[row][finalCol] = VAL_OF_O;
                 this.thisPlayerIsX=!thisPlayerIsX;
             }
-            Logics.checkGame(square);
         });
     }
 
