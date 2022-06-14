@@ -21,6 +21,7 @@ public class MyButton extends JButton {
                 this.button.setText("O");
                 MyWindow.player=!MyWindow.player;
             }
+
         });
 
     }//end of constructor

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13250991-c44e-4ecb-bda2-90b054cf824f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="13250991-c44e-4ecb-bda2-90b054cf824f" name="Changes" comment=" h">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SceneGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SceneGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -71,8 +70,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655227016958</updated>
-      <workItem from="1655227018864" duration="4190000" />
+      <workItem from="1655227018864" duration="5300000" />
     </task>
+    <task id="LOCAL‎00001" summary=" h">
+      <created>1655231349266</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1655231349266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" h" />
+    <option name="LAST_COMMIT_MESSAGE" value=" h" />
   </component>
 </project>
