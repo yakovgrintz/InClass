@@ -1,21 +1,34 @@
 import javax.swing.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
-public class Button {
+public class MyButton extends JButton {
     private int xOrCicle;
     public final int X=1,CICLE=2;
     private JButton button;
     private JLabel content;
-    public Button(int temp){
+    public MyButton(){
         this.button=new JButton("X   | O");
+        this.button.setText("click");
         this.button.addActionListener((event) -> {
-            if(temp==X){
-                this.content = new JLabel("X");
+            if(this.button.getText()!="click"){
+
+            }
+            else if(MyWindow.player==true){
+                this.button.setText("X");
+               MyWindow.player=!MyWindow.player;
+
             }
             else {
-                this.content = new JLabel( "O");
+                this.button.setText("O");
+                MyWindow.player=!MyWindow.player;
             }
         });
+
+    }//end of constructor
+
+    public void setxOrCicle(int xOrCicle) {
+        this.xOrCicle = xOrCicle;
+    }
+    public int getxOrCicle(){
+        return this.xOrCicle;
     }
 }
